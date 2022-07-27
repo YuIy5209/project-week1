@@ -49,5 +49,162 @@ table {
 .wrap{
   margin: 0 auto;
   width:  1200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid black;
 }
-.
+.container h1{
+  font-size: 80px;
+  line-height: 95px;
+  border-bottom: 1px solid black;
+}
+.container-img1{
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.container-title h3{
+  font-size: 32px;
+  line-height: 48px;
+  border-bottom: 1px solid black;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.container-title span{
+  font-size: 24px;
+  line-height: 36px;
+  color: #A00404;
+  vertical-align:top;
+}
+.container-title p{
+  font-size: 24px;
+  line-height: 36px;
+}
+.mb24{
+  margin-bottom: 24px;
+}
+.mb64{
+  margin-bottom: 64px;
+}
+.mb16{
+  margin-bottom: 16px;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+.menu{
+  height: 460px;
+  text-align: center;
+  background: #415165;
+  color: #fff;
+}
+.menu-skills h3{
+  font-size: 24px;
+  line-height: 48px;
+  border-bottom: 1px solid #fff;
+  /* position: relative; */
+  width: 996px;
+  margin-left: 102px;
+  margin-right: 102px;
+}
+.menu-slills-title ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-slills-title li{
+  width: 200px;
+  font-size: 24px;
+  line-height: 36px;
+  padding-left: 20px;
+  border-left: 1px solid #ffffff;
+  list-style-type: none;
+  text-align: left;
+}
+.work{
+  margin-bottom: 80px;
+}
+.work-title h3{
+  font-size: 32px;
+  line-height: 48px;
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  width: 996px;
+  margin-left: 102px;
+  margin-right: 102px;
+  text-align: center;
+  margin-bottom: 16px;
+  
+}
+.work-title span{
+  font-size: 24px;
+  line-height: 36px;
+  color: #A00404;
+  vertical-align:top;
+}
+.work-experience ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-experience li{
+  width: 642px;
+  padding-left: 20px;
+  border-left: 1px solid #96A9C4;
+  list-style-type: none;
+  text-align: left;
+
+}
+.fz24{
+  font-size: 24px;
+}
+.lh36{
+  line-height: 36px;
+}
+.fwb{
+  font-weight: bold;
+}
+.fz20{
+  font-size: 20px;
+}
+.lh30{
+  line-height: 30px;
+}
+.contact{
+  height: 400px;
+  background: #415165;
+  color: #fff;
+}
+.contact-title h3{
+  font-size: 24px;
+  line-height: 48px;
+  border-bottom: 1px solid #fff;
+  /* position: relative; */
+  width: 996px;
+  margin-left: 102px;
+  margin-right: 102px;
+  text-align: center;
+  margin-top: 24px;
+}
+.contact-titlebox ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-titlebox li{
+  width: 200px;
+  font-size: 24px;
+  line-height: 36px;
+  padding-left: 20px;
+  /* border-left: 1px solid #fff; */
+  list-style-type: none;
+  text-align: left;
+  
+}
+.contact-titlebox img{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
