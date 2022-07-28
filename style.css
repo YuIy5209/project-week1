@@ -177,6 +177,7 @@ table {
   background: #415165;
   color: #fff;
 }
+
 .contact-title h3{
   font-size: 24px;
   line-height: 48px;
@@ -187,14 +188,20 @@ table {
   margin-right: 102px;
   text-align: center;
   margin-top: 24px;
+  margin-bottom: 24px;
 }
-.contact-titlebox ul{
+.contact-titlemethod ul{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.contact-titlelogo ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contact-titlebox li{
-  width: 200px;
+  width: 300px;
   font-size: 24px;
   line-height: 36px;
   padding-left: 20px;
@@ -203,8 +210,14 @@ table {
   text-align: left;
   
 }
-.contact-titlebox img{
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
+.contact-titlemethod{
+  margin-bottom: 24px;
+}
+.contact-titlemethod p{
+  font-size: 24px;
+  line-height: 36px;
+
+}
+.contact-titlebox a{
+  margin-right: 24px;
 }
